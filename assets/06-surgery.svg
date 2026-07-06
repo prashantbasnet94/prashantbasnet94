@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="384" viewBox="0 0 980 384" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <style>
+    .legacy{animation:purge 6s ease-in-out infinite}
+    @keyframes purge{0%,15%{opacity:1}55%,80%{opacity:0.08}100%{opacity:1}}
+    .core{animation:emerge 6s ease-in-out infinite}
+    @keyframes emerge{0%,20%{opacity:0.25}60%,85%{opacity:1}100%{opacity:0.25}}
+  </style>
+  <rect x="1" y="1" width="978" height="382" rx="10" fill="#0a0e14" stroke="#1f2833"/>
+  <path d="M20 24 v-8 h8 M960 16 h-8 M960 16 v8 M20 296 v8 h8 M960 304 h-8 v-8" stroke="#39434f" fill="none"/>
+  <text x="36" y="52" font-size="10" fill="#6ee7f9" letter-spacing="3">04 · LETSTRADE</text>
+  <text x="212" y="52" font-size="10" fill="#7c8a9a" letter-spacing="2">8.5M NODES · 6,977 SURVIVED</text>
+  <text x="944" y="52" font-size="9" fill="#39434f" text-anchor="end">THE GREAT PRUNING</text>
+  <g transform="translate(0,-46)">
+  <g class="legacy" fill="#7c8a9a" opacity="0.5">
+    <circle cx="210" cy="170" r="1.8"/><circle cx="255" cy="240" r="1.6"/><circle cx="290" cy="150" r="1.8"/>
+    <circle cx="320" cy="290" r="1.6"/><circle cx="350" cy="190" r="1.8"/><circle cx="380" cy="260" r="1.6"/>
+    <circle cx="405" cy="140" r="1.8"/><circle cx="240" cy="300" r="1.6"/><circle cx="440" cy="305" r="1.6"/>
+    <circle cx="555" cy="145" r="1.8"/><circle cx="585" cy="285" r="1.6"/><circle cx="615" cy="175" r="1.8"/>
+    <circle cx="650" cy="255" r="1.6"/><circle cx="685" cy="150" r="1.8"/><circle cx="710" cy="300" r="1.6"/>
+    <circle cx="745" cy="200" r="1.8"/><circle cx="775" cy="265" r="1.6"/><circle cx="185" cy="215" r="1.6"/>
+    <circle cx="805" cy="170" r="1.6"/><circle cx="470" cy="120" r="1.6"/><circle cx="520" cy="310" r="1.8"/>
+    <path d="M210 170 L290 150 M255 240 L350 190 M320 290 L380 260 M405 140 L350 190 M555 145 L615 175 M650 255 L585 285 M685 150 L745 200 M775 265 L710 300 M470 120 L405 140 M520 310 L585 285" stroke="rgba(124,138,154,0.25)"/>
+    <text x="210" y="330" font-size="9" letter-spacing="1" fill="#39434f">NOTIFICATIONS · GHOST FOLLOWS · 12,800 DEAD REL-TYPES</text>
+  </g>
+  <g class="core">
+    <path d="M516 250 L490 265 L464 250 L464 220 L490 205 L516 220 Z" fill="#131a22" stroke="rgba(110,231,249,0.7)"/>
+    <text x="490" y="232" font-size="10" font-weight="700" fill="#dbe4ee" text-anchor="middle">CORE</text>
+    <text x="490" y="246" font-size="10" font-weight="700" fill="#6ee7f9" text-anchor="middle">6,977</text>
+    <g fill="#6ee7f9">
+      <circle cx="430" cy="195" r="2.2"/><circle cx="550" cy="195" r="2.2"/><circle cx="420" cy="270" r="2.2"/>
+      <circle cx="560" cy="270" r="2.2"/><circle cx="490" cy="165" r="2.2"/><circle cx="490" cy="300" r="2.2"/>
+    </g>
+    <path d="M430 195 L464 220 M550 195 L516 220 M420 270 L464 250 M560 270 L516 250 M490 165 L490 205 M490 300 L490 265" stroke="rgba(110,231,249,0.4)"/>
+    <text x="600" y="238" font-size="9" fill="#41d28a" letter-spacing="1">SUB-10ms TRAVERSALS</text>
+  </g>
+  <path d="M1 358 h978" stroke="#1f2833"/>
+  <text x="36" y="396" font-size="20" font-weight="700" fill="#6ee7f9">−99.9%</text><text x="36" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">NODES</text>
+  <text x="290" y="396" font-size="20" font-weight="700" fill="#dbe4ee">1,300×</text><text x="290" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">FEWER EDGES</text>
+  <text x="540" y="396" font-size="20" font-weight="700" fill="#dbe4ee">3.7 MB</text><text x="540" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">FROM MULTI-GB DUMP</text>
+  <text x="790" y="396" font-size="20" font-weight="700" fill="#41d28a">&lt;10 ms</text><text x="790" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">QUERY p95</text>
+  </g>
+</svg>

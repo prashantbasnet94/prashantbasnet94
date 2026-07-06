@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <style>
+    .blink{animation:blink 1.4s steps(1) infinite}
+    @keyframes blink{50%{opacity:0.15}}
+  </style>
+  <rect x="1" y="1" width="978" height="278" rx="10" fill="#0a0e14" stroke="#1f2833"/>
+  <path d="M20 24 v-8 h8 M960 16 h-8 M960 16 v8 M20 256 v8 h8 M960 264 h-8 v-8" stroke="#39434f" fill="none"/>
+  <text x="36" y="52" font-size="10" fill="#6ee7f9" letter-spacing="3">10 · CONTACT</text>
+  <text x="186" y="52" font-size="10" fill="#7c8a9a" letter-spacing="2">GET IN TOUCH</text>
+  <text x="36" y="100" font-size="30" font-weight="700" fill="#dbe4ee">Building something? <tspan fill="#6ee7f9">Say hello.</tspan></text>
+  <text x="36" y="132" font-size="12" fill="#7c8a9a">100+ articles · 330+ leetcode · MS CS · Lafayette, LA</text>
+  <text x="944" y="52" font-size="9" fill="#39434f" text-anchor="end">OPEN TO INTERESTING PROBLEMS</text>
+  <rect x="36" y="168" width="216" height="34" fill="rgba(110,231,249,0.07)" stroke="rgba(110,231,249,0.4)"/>
+  <text x="144" y="189" font-size="10.5" fill="#dbe4ee" text-anchor="middle" letter-spacing="1.5">PRASHANTBASNET.COM</text>
+  <rect x="264" y="168" width="110" height="34" fill="#131a22" stroke="#1f2833"/>
+  <text x="319" y="189" font-size="10.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="1.5">GITHUB</text>
+  <rect x="386" y="168" width="126" height="34" fill="#131a22" stroke="#1f2833"/>
+  <text x="449" y="189" font-size="10.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="1.5">LINKEDIN</text>
+  <rect x="524" y="168" width="118" height="34" fill="#131a22" stroke="#1f2833"/>
+  <text x="583" y="189" font-size="10.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="1.5">WRITING</text>
+  <rect x="654" y="168" width="100" height="34" fill="#131a22" stroke="#1f2833"/>
+  <text x="704" y="189" font-size="10.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="1.5">EMAIL</text>
+  <circle cx="36" cy="238" r="3" fill="#41d28a" class="blink"/>
+  <text x="50" y="242" font-size="9" fill="#7c8a9a" letter-spacing="2">USUALLY REPLIES FAST · LAFAYETTE, LA · UTC−5</text>
+</svg>

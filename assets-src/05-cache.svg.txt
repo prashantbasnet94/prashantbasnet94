@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="384" viewBox="0 0 980 384" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <style>
+    .hit{animation:hit 2.8s ease-in-out infinite}
+    @keyframes hit{0%{transform:translateX(-105px)}45%{transform:translateX(225px)}100%{transform:translateX(-105px)}}
+    .h2{animation-delay:-0.9s}.h3{animation-delay:-1.8s}
+    .miss{animation:miss 6s ease-in-out infinite}
+    @keyframes miss{0%{transform:translateX(-255px)}30%{transform:translateX(75px)}55%{transform:translateX(505px)}65%{transform:translateX(505px)}100%{transform:translateX(-255px)}}
+  </style>
+  <rect x="1" y="1" width="978" height="382" rx="10" fill="#0a0e14" stroke="#1f2833"/>
+  <path d="M20 24 v-8 h8 M960 16 h-8 M960 16 v8 M20 296 v8 h8 M960 304 h-8 v-8" stroke="#39434f" fill="none"/>
+  <text x="36" y="52" font-size="10" fill="#6ee7f9" letter-spacing="3">07 · UNISALA</text>
+  <text x="180" y="52" font-size="10" fill="#7c8a9a" letter-spacing="2">4.1 SECONDS BECAME 40 MILLISECONDS</text>
+  <text x="944" y="52" font-size="9" fill="#39434f" text-anchor="end">FEED READ PATH</text>
+  <g transform="translate(0,-46)">
+  <ellipse cx="470" cy="230" rx="95" ry="58" fill="none" stroke="#6ee7f9" stroke-opacity="0.5" stroke-dasharray="5 5"/>
+  <text x="470" y="306" font-size="8.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="2">LRU BOUNDARY</text>
+  <path d="M496 245 L470 260 L444 245 L444 215 L470 200 L496 215 Z" fill="#131a22" stroke="rgba(110,231,249,0.55)"/>
+  <text x="470" y="227" font-size="10" font-weight="700" fill="#dbe4ee" text-anchor="middle">LRU</text>
+  <text x="470" y="241" font-size="10" font-weight="700" fill="#6ee7f9" text-anchor="middle">99.2%</text>
+  <rect x="828" y="208" width="34" height="44" fill="#131a22" stroke="rgba(240,180,92,0.6)"/>
+  <text x="845" y="268" font-size="8.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="1">MONGO</text>
+  <text x="845" y="196" font-size="8" fill="#f0b45c" text-anchor="middle" letter-spacing="1">MISSES ONLY</text>
+  <g class="hit"><circle cx="150" cy="205" r="2.8" fill="#6ee7f9"/></g>
+  <g class="hit h2"><circle cx="150" cy="230" r="2.8" fill="#6ee7f9" opacity="0.85"/></g>
+  <g class="hit h3"><circle cx="150" cy="255" r="2.8" fill="#6ee7f9" opacity="0.7"/></g>
+  <g class="miss"><circle cx="300" cy="242" r="2.8" fill="#f0b45c"/></g>
+  <text x="150" y="180" font-size="9" fill="#7c8a9a" letter-spacing="2">REQUESTS →</text>
+  <text x="620" y="180" font-size="9" fill="#41d28a" letter-spacing="1">HITS RETURN IN 40ms</text>
+  <path d="M1 358 h978" stroke="#1f2833"/>
+  <text x="36" y="396" font-size="20" font-weight="700" fill="#6ee7f9">4,100 → 40 ms</text><text x="36" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">p95 LATENCY</text>
+  <text x="330" y="396" font-size="20" font-weight="700" fill="#41d28a">100×</text><text x="330" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">SPEEDUP</text>
+  <text x="560" y="396" font-size="20" font-weight="700" fill="#dbe4ee">99.2%</text><text x="560" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">HIT RATE</text>
+  <text x="810" y="396" font-size="20" font-weight="700" fill="#dbe4ee">−97%</text><text x="810" y="413" font-size="8" fill="#7c8a9a" letter-spacing="2">DB READS</text>
+  </g>
+</svg>

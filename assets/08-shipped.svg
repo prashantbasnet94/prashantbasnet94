@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="314" viewBox="0 0 980 314" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <style>
+    .card{opacity:0;animation:up .6s ease-out forwards}
+    @keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    .k1{animation-delay:.2s}.k2{animation-delay:.4s}.k3{animation-delay:.6s}.k4{animation-delay:.8s}
+    .blink{animation:blink 1.4s steps(1) infinite}
+    @keyframes blink{50%{opacity:0.15}}
+  </style>
+  <rect x="1" y="1" width="978" height="312" rx="10" fill="#0a0e14" stroke="#1f2833"/>
+  <path d="M20 24 v-8 h8 M960 16 h-8 M960 16 v8 M20 290 v8 h8 M960 298 h-8 v-8" stroke="#39434f" fill="none"/>
+  <text x="36" y="52" font-size="10" fill="#6ee7f9" letter-spacing="3">08 · SHIPPED</text>
+  <text x="170" y="52" font-size="10" fill="#7c8a9a" letter-spacing="2">CODE IN THE OPEN · CLONE IT · BREAK IT</text>
+  <text x="944" y="52" font-size="9" fill="#39434f" text-anchor="end">github.com/prashantbasnet94</text>
+  <g transform="translate(0,-46)">
+
+  <g class="card k1">
+    <rect x="36" y="118" width="442" height="92" fill="#131a22" stroke="#1f2833"/>
+    <circle cx="58" cy="144" r="3" fill="#6ee7f9" class="blink"/>
+    <text x="72" y="149" font-size="13" font-weight="700" fill="#dbe4ee">authz-engine</text>
+    <text x="58" y="174" font-size="10.5" fill="#7c8a9a">graph RBAC · transitive inheritance · O(1) reachability</text>
+    <text x="58" y="196" font-size="9" fill="#6ee7f9" letter-spacing="1">200K+ CHECKS/SEC · ZERO DB</text>
+  </g>
+  <g class="card k2">
+    <rect x="502" y="118" width="442" height="92" fill="#131a22" stroke="#1f2833"/>
+    <circle cx="524" cy="144" r="3" fill="#6ee7f9" class="blink"/>
+    <text x="538" y="149" font-size="13" font-weight="700" fill="#dbe4ee">event-bus</text>
+    <text x="524" y="174" font-size="10.5" fill="#7c8a9a">async telemetry backbone · the MetricsBus pattern</text>
+    <text x="524" y="196" font-size="9" fill="#6ee7f9" letter-spacing="1">HOT PATH ONLY ENQUEUES</text>
+  </g>
+  <g class="card k3">
+    <rect x="36" y="228" width="442" height="92" fill="#131a22" stroke="#1f2833"/>
+    <circle cx="58" cy="254" r="3" fill="#6ee7f9" class="blink"/>
+    <text x="72" y="259" font-size="13" font-weight="700" fill="#dbe4ee">top-k-youtube-videos</text>
+    <text x="58" y="284" font-size="10.5" fill="#7c8a9a">production-style Top-K system · sharded counting at scale</text>
+    <text x="58" y="306" font-size="9" fill="#6ee7f9" letter-spacing="1">SHARDING · HEAVY HITTERS</text>
+  </g>
+  <g class="card k4">
+    <rect x="502" y="228" width="442" height="92" fill="#131a22" stroke="#1f2833"/>
+    <circle cx="524" cy="254" r="3" fill="#6ee7f9" class="blink"/>
+    <text x="538" y="259" font-size="13" font-weight="700" fill="#dbe4ee">nodejs-performance-benchmark</text>
+    <text x="524" y="284" font-size="10.5" fill="#7c8a9a">measured, not vibes · event loop &amp; I/O under load</text>
+    <text x="524" y="306" font-size="9" fill="#6ee7f9" letter-spacing="1">NUMBERS OR IT DIDN'T HAPPEN</text>
+  </g>
+  </g>
+</svg>

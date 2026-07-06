@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="384" viewBox="0 0 980 384" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <style>
+    .pl{animation:pl 2.4s ease-in-out infinite}
+    @keyframes pl{0%{transform:translate(0,0)}50%{transform:translate(340px,-42px)}100%{transform:translate(0,0)}}
+    .p2{animation:p2 2.4s ease-in-out -0.8s infinite}
+    @keyframes p2{0%{transform:translate(0,0)}50%{transform:translate(-240px,-64px)}100%{transform:translate(0,0)}}
+    .p3{animation:p3 2.4s ease-in-out -1.6s infinite}
+    @keyframes p3{0%{transform:translate(0,0)}50%{transform:translate(-130px,76px)}100%{transform:translate(0,0)}}
+    .blink{animation:blink 1.6s steps(1) infinite}
+    @keyframes blink{50%{opacity:0.15}}
+  </style>
+  <rect x="1" y="1" width="978" height="382" rx="10" fill="#0a0e14" stroke="#1f2833"/>
+  <path d="M20 24 v-8 h8 M960 16 h-8 M960 16 v8 M20 296 v8 h8 M960 304 h-8 v-8" stroke="#39434f" fill="none"/>
+  <text x="36" y="52" font-size="10" fill="#4ade80" letter-spacing="3">05 · BLUEFLITE</text>
+  <text x="196" y="52" font-size="10" fill="#7c8a9a" letter-spacing="2">GRAPH RBAC · 200,000 ASKS A SECOND · ONE HOP EACH</text>
+  <text x="944" y="52" font-size="9" fill="#39434f" text-anchor="end">AIRSPACE · SEC-7</text>
+
+  <path d="M150 120 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M320 96 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M610 92 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M830 120 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M110 210 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M250 250 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M700 235 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M880 205 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M385 285 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M620 292 L490 168" stroke="rgba(74,222,128,0.12)"/><path d="M770 288 L490 168" stroke="rgba(74,222,128,0.12)"/>
+
+  <!-- tower -->
+  <path d="M478 196 L468 300 L512 300 L502 196 Z" fill="rgba(19,26,34,0.9)" stroke="rgba(124,138,154,0.35)"/>
+  <path d="M472 250 L508 250 M470 275 L510 275 M478 196 L512 300 M502 196 L468 300" stroke="rgba(124,138,154,0.22)"/>
+  <ellipse cx="490" cy="304" rx="66" ry="12" fill="none" stroke="rgba(124,138,154,0.25)"/>
+
+  <!-- pulses -->
+  <g class="pl"><circle cx="150" cy="210" r="2.6" fill="#4ade80"/></g>
+  <g class="p2"><circle cx="730" cy="232" r="2.6" fill="#4ade80"/></g>
+  <g class="p3"><circle cx="620" cy="92" r="2.4" fill="#4ade80"/></g>
+
+  <g opacity="0.5">
+    <path d="M146 116 L154 124 M146 124 L154 116" stroke="#4ade80" stroke-width="0.8800000000000001"/>
+    <circle cx="146" cy="116" r="1.36" fill="#4ade80"/><circle cx="154" cy="116" r="1.36" fill="#4ade80"/>
+    <circle cx="146" cy="124" r="1.36" fill="#4ade80"/><circle cx="154" cy="124" r="1.36" fill="#4ade80"/><text x="159" y="123" font-size="8" fill="#39434f" text-anchor="start">D-10</text></g><g opacity="0.45">
+    <path d="M316.5 92.5 L323.5 99.5 M316.5 99.5 L323.5 92.5" stroke="#4ade80" stroke-width="0.77"/>
+    <circle cx="316.5" cy="92.5" r="1.19" fill="#4ade80"/><circle cx="323.5" cy="92.5" r="1.19" fill="#4ade80"/>
+    <circle cx="316.5" cy="99.5" r="1.19" fill="#4ade80"/><circle cx="323.5" cy="99.5" r="1.19" fill="#4ade80"/></g><g opacity="0.5">
+    <path d="M606 88 L614 96 M606 96 L614 88" stroke="#4ade80" stroke-width="0.8800000000000001"/>
+    <circle cx="606" cy="88" r="1.36" fill="#4ade80"/><circle cx="614" cy="88" r="1.36" fill="#4ade80"/>
+    <circle cx="606" cy="96" r="1.36" fill="#4ade80"/><circle cx="614" cy="96" r="1.36" fill="#4ade80"/><text x="619" y="95" font-size="8" fill="#39434f" text-anchor="start">D-14</text></g><g opacity="0.6">
+    <path d="M825.5 115.5 L834.5 124.5 M825.5 124.5 L834.5 115.5" stroke="#4ade80" stroke-width="0.9900000000000001"/>
+    <circle cx="825.5" cy="115.5" r="1.53" fill="#4ade80"/><circle cx="834.5" cy="115.5" r="1.53" fill="#4ade80"/>
+    <circle cx="825.5" cy="124.5" r="1.53" fill="#4ade80"/><circle cx="834.5" cy="124.5" r="1.53" fill="#4ade80"/><text x="820.5" y="123" font-size="8" fill="#39434f" text-anchor="end">D-01</text></g><g opacity="0.7">
+    <path d="M105 205 L115 215 M105 215 L115 205" stroke="#4ade80" stroke-width="1.1"/>
+    <circle cx="105" cy="205" r="1.7" fill="#4ade80"/><circle cx="115" cy="205" r="1.7" fill="#4ade80"/>
+    <circle cx="105" cy="215" r="1.7" fill="#4ade80"/><circle cx="115" cy="215" r="1.7" fill="#4ade80"/><text x="120" y="213" font-size="8" fill="#39434f" text-anchor="start">D-02</text></g><g opacity="0.8">
+    <path d="M244.75 244.75 L255.25 255.25 M244.75 255.25 L255.25 244.75" stroke="#4ade80" stroke-width="1.1550000000000002"/>
+    <circle cx="244.75" cy="244.75" r="1.785" fill="#4ade80"/><circle cx="255.25" cy="244.75" r="1.785" fill="#4ade80"/>
+    <circle cx="244.75" cy="255.25" r="1.785" fill="#4ade80"/><circle cx="255.25" cy="255.25" r="1.785" fill="#4ade80"/><text x="260.25" y="253" font-size="8" fill="#39434f" text-anchor="start">D-15</text></g><g opacity="0.75">
+    <path d="M695 230 L705 240 M695 240 L705 230" stroke="#4ade80" stroke-width="1.1"/>
+    <circle cx="695" cy="230" r="1.7" fill="#4ade80"/><circle cx="705" cy="230" r="1.7" fill="#4ade80"/>
+    <circle cx="695" cy="240" r="1.7" fill="#4ade80"/><circle cx="705" cy="240" r="1.7" fill="#4ade80"/><text x="710" y="238" font-size="8" fill="#39434f" text-anchor="start">D-17</text></g><g opacity="0.6">
+    <path d="M875.5 200.5 L884.5 209.5 M875.5 209.5 L884.5 200.5" stroke="#4ade80" stroke-width="0.9900000000000001"/>
+    <circle cx="875.5" cy="200.5" r="1.53" fill="#4ade80"/><circle cx="884.5" cy="200.5" r="1.53" fill="#4ade80"/>
+    <circle cx="875.5" cy="209.5" r="1.53" fill="#4ade80"/><circle cx="884.5" cy="209.5" r="1.53" fill="#4ade80"/><text x="870.5" y="208" font-size="8" fill="#39434f" text-anchor="end">D-09</text></g><g opacity="0.85">
+    <path d="M379.5 279.5 L390.5 290.5 M379.5 290.5 L390.5 279.5" stroke="#4ade80" stroke-width="1.2100000000000002"/>
+    <circle cx="379.5" cy="279.5" r="1.87" fill="#4ade80"/><circle cx="390.5" cy="279.5" r="1.87" fill="#4ade80"/>
+    <circle cx="379.5" cy="290.5" r="1.87" fill="#4ade80"/><circle cx="390.5" cy="290.5" r="1.87" fill="#4ade80"/><text x="395.5" y="288" font-size="8" fill="#39434f" text-anchor="start">D-20</text></g><g opacity="0.85">
+    <path d="M614.5 286.5 L625.5 297.5 M614.5 297.5 L625.5 286.5" stroke="#4ade80" stroke-width="1.2100000000000002"/>
+    <circle cx="614.5" cy="286.5" r="1.87" fill="#4ade80"/><circle cx="625.5" cy="286.5" r="1.87" fill="#4ade80"/>
+    <circle cx="614.5" cy="297.5" r="1.87" fill="#4ade80"/><circle cx="625.5" cy="297.5" r="1.87" fill="#4ade80"/><text x="630.5" y="295" font-size="8" fill="#39434f" text-anchor="start">D-04</text></g><g opacity="0.7">
+    <path d="M765 283 L775 293 M765 293 L775 283" stroke="#4ade80" stroke-width="1.1"/>
+    <circle cx="765" cy="283" r="1.7" fill="#4ade80"/><circle cx="775" cy="283" r="1.7" fill="#4ade80"/>
+    <circle cx="765" cy="293" r="1.7" fill="#4ade80"/><circle cx="775" cy="293" r="1.7" fill="#4ade80"/></g>
+
+  <!-- core -->
+  <text x="490" y="118" font-size="8.5" fill="#7c8a9a" text-anchor="middle" letter-spacing="2">RBAC NODE · Δ-AUTHORITY</text>
+  <path d="M490 124 v10" stroke="rgba(124,138,154,0.4)"/>
+  <circle cx="490" cy="124" r="1.8" fill="#4ade80"/>
+  <path d="M522 186 L490 205 L458 186 L458 150 L490 131 L522 150 Z" fill="#131a22" stroke="rgba(74,222,128,0.6)" stroke-width="1.2"/>
+  <path d="M510 179 L490 191 L470 179 L470 157 L490 145 L510 157 Z" fill="none" stroke="rgba(124,138,154,0.25)"/>
+  <text x="490" y="165" font-size="11" font-weight="700" fill="#dbe4ee" text-anchor="middle">AUTH</text>
+  <text x="490" y="180" font-size="10" font-weight="700" fill="#4ade80" text-anchor="middle">O(1)</text>
+
+  <path d="M1 312 h978" stroke="#1f2833"/>
+  <circle cx="36" cy="348" r="3" fill="#4ade80" class="blink"/>
+  <text x="50" y="343" font-size="8" fill="#7c8a9a" letter-spacing="2">LIVE</text>
+  <text x="50" y="355" font-size="8" fill="#7c8a9a" letter-spacing="2">TELEMETRY</text>
+  <text x="170" y="350" font-size="20" font-weight="700" fill="#4ade80">214,648</text><text x="170" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">CHECKS / SEC</text>
+  <text x="420" y="350" font-size="20" font-weight="700" fill="#dbe4ee">1</text><text x="420" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">HOP</text>
+  <text x="580" y="350" font-size="20" font-weight="700" fill="#dbe4ee">0</text><text x="580" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">DB HITS</text>
+  <text x="760" y="350" font-size="20" font-weight="700" fill="#dbe4ee">0.9 µs</text><text x="760" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">p95 · O(1)</text>
+</svg>

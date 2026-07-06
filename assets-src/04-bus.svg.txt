@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="384" viewBox="0 0 980 384" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <style>
+    .req{animation:req 3.4s linear infinite}
+    @keyframes req{from{transform:translateX(-980px)}to{transform:translateX(980px)}}
+    .r2{animation-delay:-0.55s}.r3{animation-delay:-1.1s}.r4{animation-delay:-1.65s}.r5{animation-delay:-2.2s}.r6{animation-delay:-2.75s}
+    .dash{stroke-dasharray:4 8;animation:flow 1.2s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-12}}
+    .blink{animation:blink 1.6s steps(1) infinite}
+    @keyframes blink{50%{opacity:0.15}}
+  </style>
+  <rect x="1" y="1" width="978" height="382" rx="10" fill="#0a0e14" stroke="#1f2833"/>
+  <path d="M20 24 v-8 h8 M960 16 h-8 M960 16 v8 M20 296 v8 h8 M960 304 h-8 v-8" stroke="#39434f" fill="none"/>
+  <text x="36" y="52" font-size="10" fill="#4ade80" letter-spacing="3">06 · BLUEFLITE</text>
+  <text x="196" y="52" font-size="10" fill="#7c8a9a" letter-spacing="2">METRICSBUS · TELEMETRY NEVER TOUCHES THE DECISION</text>
+  <text x="944" y="52" font-size="9" fill="#39434f" text-anchor="end">PARALLEL · INDEPENDENT</text>
+
+  <!-- safety path -->
+  <path d="M0 164 H980" stroke="rgba(124,138,154,0.3)"/>
+  <text x="36" y="154" font-size="9" fill="#7c8a9a" letter-spacing="2">SAFETY PATH → DECISION</text>
+  <text x="944" y="154" font-size="10" font-weight="700" fill="#4ade80" text-anchor="end">p95 247 ms</text>
+  <circle cx="120" cy="164" r="2.6" fill="#dbe4ee" class="req"/>
+  <circle cx="280" cy="160" r="2.2" fill="#dbe4ee" opacity="0.7" class="req r2"/>
+  <circle cx="440" cy="168" r="2.4" fill="#4ade80" class="req r3"/>
+  <circle cx="600" cy="162" r="2.2" fill="#dbe4ee" opacity="0.8" class="req r4"/>
+  <circle cx="760" cy="167" r="2.4" fill="#dbe4ee" opacity="0.6" class="req r5"/>
+  <circle cx="900" cy="164" r="2.4" fill="#4ade80" opacity="0.8" class="req r6"/>
+
+  <!-- bus node + tower -->
+  <path d="M480 196 L472 268 L508 268 L500 196 Z" fill="rgba(19,26,34,0.9)" stroke="rgba(124,138,154,0.3)"/>
+  <path d="M476 232 L504 232 M480 196 L508 268 M500 196 L472 268" stroke="rgba(124,138,154,0.2)"/>
+  <path d="M518 186 L490 202 L462 186 L462 154 L490 138 L518 154 Z" fill="#131a22" stroke="rgba(74,222,128,0.6)" stroke-width="1.2"/>
+  <text x="490" y="166" font-size="10" font-weight="700" fill="#dbe4ee" text-anchor="middle">BUS</text>
+  <text x="490" y="180" font-size="10" font-weight="700" fill="#4ade80" text-anchor="middle">ASYNC</text>
+
+  <!-- observers -->
+  <path d="M490 202 L250 288 M490 202 L490 288 M490 202 L730 288" stroke="rgba(74,222,128,0.28)" class="dash" fill="none"/>
+  <rect x="243" y="288" width="14" height="14" fill="#131a22" stroke="rgba(124,138,154,0.5)"/>
+  <rect x="483" y="288" width="14" height="14" fill="#131a22" stroke="rgba(124,138,154,0.5)"/>
+  <rect x="723" y="288" width="14" height="14" fill="#131a22" stroke="rgba(124,138,154,0.5)"/>
+  <text x="228" y="298" font-size="8.5" fill="#7c8a9a" text-anchor="end" letter-spacing="1">OBS-1 · GRAFANA</text>
+  <text x="468" y="298" font-size="8.5" fill="#7c8a9a" text-anchor="end" letter-spacing="1">OBS-2 · ALERTS</text>
+  <text x="745" y="298" font-size="8.5" fill="#7c8a9a" letter-spacing="1">OBS-3 · TRACES</text>
+
+  <path d="M1 312 h978" stroke="#1f2833"/>
+  <circle cx="36" cy="348" r="3" fill="#4ade80" class="blink"/>
+  <text x="50" y="343" font-size="8" fill="#7c8a9a" letter-spacing="2">LIVE</text>
+  <text x="50" y="355" font-size="8" fill="#7c8a9a" letter-spacing="2">TELEMETRY</text>
+  <text x="170" y="350" font-size="20" font-weight="700" fill="#4ade80">758 → 247 ms</text><text x="170" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">p95 LATENCY</text>
+  <text x="440" y="350" font-size="20" font-weight="700" fill="#dbe4ee">+31%</text><text x="440" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">THROUGHPUT</text>
+  <text x="610" y="350" font-size="20" font-weight="700" fill="#dbe4ee">ENQUEUE</text><text x="610" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">HOT PATH COST</text>
+  <text x="820" y="350" font-size="20" font-weight="700" fill="#dbe4ee">0</text><text x="820" y="367" font-size="8" fill="#7c8a9a" letter-spacing="2">BLOCKED</text>
+</svg>
